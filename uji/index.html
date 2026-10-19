@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jadi Penguji — Akal-Akalan!</title>
+<meta name="description" content="Bantu uji coba game Akal-Akalan! sebelum rilis di Play Store. 3 langkah, 1 menit.">
+<meta property="og:title" content="Jadi Penguji Akal-Akalan!">
+<meta property="og:description" content="Bantu uji coba game asah otak Akal-Akalan! — 3 langkah, 1 menit.">
+<meta property="og:image" content="https://sayedmehra-prog.github.io/akal-akalan-privasi/uji/ikon.png">
+<link rel="icon" href="ikon.png">
+<style>
+  :root { --ink: #3B2A20; --bg: #FFF4DA; --card: #fff; --teal: #3FBFA8; --yellow: #FFD45C; --red: #F2594B; --muted: #7a6656; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 560px; margin: 0 auto; padding: 24px 16px 48px; }
+  header { text-align: center; }
+  header img { width: 96px; height: 96px; border-radius: 22px; border: 4px solid var(--ink); }
+  h1 { font-size: 1.6em; margin: 12px 0 4px; line-height: 1.2; }
+  .lead { margin: 0 0 20px; color: var(--muted); }
+  .warn { background: #FFF0B8; border: 3px solid var(--ink); border-radius: 16px; padding: 12px 14px; margin: 0 0 20px; }
+  .warn b { display: block; margin-bottom: 4px; }
+  .step { background: var(--card); border: 3px solid var(--ink); border-radius: 18px; padding: 16px; margin: 0 0 16px; box-shadow: 0 6px 0 #E9D5AE; }
+  .step h2 { font-size: 1.15em; margin: 0 0 6px; display: flex; align-items: center; gap: 10px; }
+  .num { flex: none; width: 34px; height: 34px; border-radius: 50%; background: var(--ink); color: #fff; display: grid; place-items: center; font-size: .95em; }
+  .step p { margin: 0 0 12px; }
+  .btn { display: block; text-align: center; text-decoration: none; font-weight: 800; font-size: 1.05em; color: #fff; background: var(--teal); border: 3px solid var(--ink); border-radius: 999px; padding: 13px 16px; box-shadow: 0 5px 0 var(--ink); }
+  .btn:active { transform: translateY(4px); box-shadow: 0 1px 0 var(--ink); }
+  .btn.y { background: var(--yellow); color: #3B2A20; }
+  .btn.r { background: var(--red); }
+  .done { margin-top: 16px; font-size: .92em; color: var(--muted); }
+  h3 { margin: 28px 0 10px; font-size: 1.15em; }
+  details { background: var(--card); border: 2px solid var(--ink); border-radius: 14px; padding: 10px 14px; margin: 0 0 10px; }
+  summary { font-weight: 700; cursor: pointer; }
+  details p, details ol { margin: 8px 0 2px; }
+  ol { padding-left: 20px; }
+  .rules { background: var(--card); border: 3px dashed var(--ink); border-radius: 16px; padding: 12px 14px; }
+  .rules ul { margin: 6px 0 0; padding-left: 20px; }
+  footer { margin-top: 28px; text-align: center; font-size: .9em; color: var(--muted); }
+  footer a { color: inherit; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink: #F3E6D2; --bg: #241a14; --card: #33261d; --muted: #c7b39c; }
+    .warn { background: #4a3a12; }
+    .btn { color: #1c140f; }
+    .num { color: #241a14; }
+    .step { box-shadow: 0 6px 0 #120c09; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="ikon.png" alt="Ikon Akal-Akalan!">
+    <h1>Jadi Penguji Akal-Akalan!</h1>
+    <p class="lead">Terima kasih mau bantu! 🙏 Cukup 3 langkah, sekitar 1 menit. Khusus HP <b>Android</b>.</p>
+  </header>
+
+  <div class="warn">
+    <b>⚠️ Penting: pakai SATU akun Google yang sama</b>
+    Akun untuk langkah ①, ②, dan ③ harus sama. Cek akun yang aktif di Play Store dengan melihat foto profil di pojok kanan atas aplikasi Play Store. Kalau HP punya lebih dari satu akun Google, pakai akun itu di semua langkah.
+  </div>
+
+  <section class="step">
+    <h2><span class="num">1</span> Gabung grup penguji</h2>
+    <p>Buka link di bawah, lalu ketuk <b>"Gabung ke grup"</b> (Join group).</p>
+    <a class="btn" href="https://groups.google.com/g/penguji-akal-akalan" target="_blank" rel="noopener">① Gabung grup penguji</a>
+    <p class="done">Berhasil kalau tertulis bahwa kamu sudah menjadi anggota.</p>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">2</span> Daftar jadi penguji</h2>
+    <p>Buka link di bawah, lalu ketuk <b>"Jadi penguji"</b> (Become a tester).</p>
+    <a class="btn y" href="https://play.google.com/apps/testing/id.akalakalan.game" target="_blank" rel="noopener">② Jadi penguji</a>
+    <p class="done">Berhasil kalau muncul tulisan "Anda sekarang menjadi penguji".</p>
+  </section>
+
+  <section class="step">
+    <h2><span class="num">3</span> Pasang gamenya</h2>
+    <p>Buka halaman game di Play Store, lalu ketuk <b>Instal</b>.</p>
+    <a class="btn r" href="https://play.google.com/store/apps/details?id=id.akalakalan.game" target="_blank" rel="noopener">③ Pasang dari Play Store</a>
+    <p class="done">Game ini <b>tidak muncul di pencarian</b> Play Store karena masih tahap uji. Selalu masuk lewat tombol ini.</p>
+  </section>
+
+  <div class="rules">
+    <b>🙏 Mohon bantuannya selama masa uji:</b>
+    <ul>
+      <li><b>Jangan hapus game selama 14 hari.</b> Ini syarat Google supaya game bisa rilis untuk umum.</li>
+      <li>Jangan keluar dari grup atau dari program uji.</li>
+      <li>Sesekali buka dan mainkan gamenya.</li>
+      <li>Kalau ada yang aneh, susah, atau lucu, kabari pembuatnya. 😄</li>
+    </ul>
+  </div>
+
+  <h3>Ada kendala?</h3>
+
+  <details>
+    <summary>"Item tidak ditemukan" atau "Aplikasi tidak tersedia"</summary>
+    <ol>
+      <li>Pastikan langkah ① dan ② sudah dilakukan.</li>
+      <li>Cek apakah akun di Play Store sama dengan akun di langkah ① dan ②. Kalau berbeda, ganti akun di Play Store (ketuk foto profil, lalu pilih akun lain), atau ulangi langkah ① dan ② dengan akun Play Store.</li>
+      <li>Tunggu 10–30 menit, lalu coba lagi tombol ③. Kadang perlu beberapa jam.</li>
+      <li>Hapus cache Play Store: <i>Setelan HP → Aplikasi → Google Play Store → Penyimpanan → Hapus cache</i>, lalu coba lagi.</li>
+    </ol>
+  </details>
+
+  <details>
+    <summary>Tombol ② tidak menampilkan "Jadi penguji"</summary>
+    <p>Biasanya karena belum bergabung ke grup (langkah ①), atau browser memakai akun Google yang berbeda. Buka link ② lewat <b>Chrome</b>, ketuk foto profil di pojok kanan atas halaman, lalu pilih akun yang sama dengan Play Store.</p>
+  </details>
+
+  <details>
+    <summary>Grup bertuliskan "menunggu persetujuan"</summary>
+    <p>Kabari pembuat game supaya permintaanmu disetujui, lalu lanjutkan ke langkah ②.</p>
+  </details>
+
+  <details>
+    <summary>Pakai iPhone?</summary>
+    <p>Maaf, untuk sekarang game ini baru tersedia untuk HP Android.</p>
+  </details>
+
+  <footer>
+    Akal-Akalan! · <a href="../">Kebijakan privasi</a> · Kontak: <a href="mailto:sayedmehra@gmail.com">sayedmehra@gmail.com</a>
+  </footer>
+</main>
+</body>
+</html>
